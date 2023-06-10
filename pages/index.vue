@@ -30,7 +30,9 @@
     <section id="features" class="text-gray-100">
       <!-- Feature 1 -->
       <div class="mt-40 grid grid-cols-1 md:grid-cols-2 gap-10 align-middle">
-        <div class="order-1"><img src="/images/feature-1.png" alt="" /></div>
+        <div class="order-1">
+          <img src="/images/feature-1.png" class="bounce" alt="" />
+        </div>
         <div class="order-2 flex flex-col justify-center">
           <h4 class="font-bold text-3xl">
             Stay strong through tough times with Oolong's Guided Toolkit.
@@ -47,7 +49,7 @@
       <!-- Feature 2 -->
       <div class="mt-40 grid grid-cols-1 md:grid-cols-2 gap-10 align-middle">
         <div class="order-1 md:order-2">
-          <img src="/images/feature-1.png" alt="" />
+          <img src="/images/feature-1.png" class="bounce-variant" alt="" />
         </div>
         <div class="order-2 md:order-1 flex flex-col justify-center">
           <h4 class="font-bold text-3xl">
@@ -64,7 +66,9 @@
       </div>
       <!-- Feature 3 -->
       <div class="mt-40 grid grid-cols-1 md:grid-cols-2 gap-10 align-middle">
-        <div class="order-1"><img src="/images/feature-1.png" alt="" /></div>
+        <div class="order-1">
+          <img src="/images/feature-3.png" class="bounce" alt="" />
+        </div>
         <div class="order-2 flex flex-col justify-center">
           <h4 class="font-bold text-3xl">
             Strengthen your relationships with thoughtful gifts and meetups.
@@ -80,3 +84,37 @@
     </section>
   </main>
 </template>
+<style scoped>
+.bounce {
+  animation: bob 2s infinite ease-in-out;
+}
+
+.bounce-variant {
+  animation: bob-variant 2s infinite ease-in-out;
+}
+
+/* animation bob up and down */
+@keyframes bob {
+  0% {
+    transform: translateY(-0.5rem) rotate(1deg);
+  }
+  50% {
+    transform: translateY(0px) rotate(-1deg);
+  }
+  100% {
+    transform: translateY(-0.5rem) rotate(1deg);
+  }
+}
+
+@keyframes bob-variant {
+  0% {
+    transform: translateY(0px) rotate(-1deg);
+  }
+  50% {
+    transform: translateY(-0.5rem) rotate(1deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(-1deg);
+  }
+}
+</style>
