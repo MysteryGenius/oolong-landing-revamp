@@ -79,12 +79,16 @@
     <div
       class="h-screen w-screen relative overflow-hidden hidden md:block z-40"
     >
-      <img
+      <!-- <img
         ref="eyes"
         src="/images/eyes.gif"
         alt="Eyes"
-        class="absolute inset-0"
-      />
+        class="absolute w-screen inset-0"
+      /> -->
+      <video ref="eyes" autoplay loop muted playsinline>
+        <source src="/videos/eyes.webm" type="video/webm" />
+        <source src="/videos/eyes.mp4" type="video/mp4" />
+      </video>
       <img
         ref="charge"
         src="/images/charge.gif"
@@ -102,11 +106,15 @@
     <div
       class="h-screen w-screen relative overflow-hidden block md:hidden z-40"
     >
-      <img
+      <!-- <img
         src="/images/hero-mobile.gif"
         alt="Hero facing her demons"
         class="absolute inset-0"
-      />
+      /> -->
+      <video autoplay loop muted playsinline>
+        <source src="/videos/hero-mobile.webm" type="video/webm" />
+        <source src="/videos/hero-mobile.mp4" type="video/mp4" />
+      </video>
     </div>
 
     <div class="relative isolate px-6 pt-14 lg:px-8">
