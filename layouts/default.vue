@@ -77,7 +77,7 @@
     </header>
 
     <!-- only show on landing -->
-    <section v-if="isLanding">
+    <section class="overflow-x-hidden" v-if="isLanding">
       <div
         class="h-screen w-screen relative overflow-hidden hidden md:block z-40"
       >
@@ -121,7 +121,7 @@
     </section>
 
     <div class="relative isolate px-6 pt-14 lg:px-8">
-      <div class="mx-auto max-w-4xl py-0 sm:py-16 lg:py-56">
+      <div class="mx-auto max-w-4xl py-0 sm:py-2 lg:py-8">
         <slot />
       </div>
     </div>
@@ -149,8 +149,8 @@ import { Dialog, DialogPanel } from "@headlessui/vue";
 
 const navigation = [
   { name: "Our Why", href: "/why" },
-  { name: "Features", href: "#features" },
-  { name: "Join our Beta", href: "#" },
+  { name: "Our Programmes", href: "/programmes" },
+  { name: "Join Us", href: "/join" },
 ];
 
 const mobileMenuOpen = ref(false);

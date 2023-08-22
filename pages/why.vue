@@ -1,5 +1,5 @@
 <template>
-  <article>
+  <article class="mt-6">
     <h2 class="text-6xl font-bold tracking-widest text-center">Our Why</h2>
     <hr class="mt-4" />
 
@@ -25,7 +25,7 @@
     <!-- A Path to Healing -->
     <section class="mt-6 grid grid-cols-1">
       <div class="md:order-1 order-2">
-        <h3 class="text-2xl font-bold mt-6">Volunteering: A Path to Healing</h3>
+        <h3 class="text-2xl font-bold mt-6">Heal by Helping Others</h3>
         <p class="mt-4">
           By volunteering, one not only aids the community but also re-discovers
           their self-worth. The act of giving selflessly nurtures the soul,
@@ -37,6 +37,20 @@
         src="/images/why/a_path_to_healing.png"
         alt="Staring intensely into the mirror"
       />
+    </section>
+
+    <!-- How Oolong Supports Volunteering -->
+    <section class="mt-6 grid grid-cols-1">
+      <div class="md:order-1 order-2">
+        <h3 class="text-2xl font-bold mt-6">Empowerment Through Service</h3>
+        <p class="mt-4">
+          At Oolong, we recognize the therapeutic effect of helping others. We
+          work closely with partners to provide numerous opportunities for our
+          community members to get involved, serve, and rediscover their
+          intrinsic worth.
+        </p>
+      </div>
+      <!--  -->
     </section>
   </article>
 </template>
