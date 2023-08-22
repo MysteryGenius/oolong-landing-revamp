@@ -1,5 +1,5 @@
 <template>
-  <article class="mt-6">
+  <article class="mt-20">
     <h2 class="text-6xl font-bold tracking-widest text-center">Our Why</h2>
     <hr class="mt-4" />
 

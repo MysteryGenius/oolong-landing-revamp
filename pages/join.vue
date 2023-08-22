@@ -1,5 +1,5 @@
 <template>
-  <article>
+  <article class="mt-20">
     <h2 class="text-6xl font-bold tracking-widest text-center">Join us</h2>
     <hr class="mt-4" />
     <!-- Volunteering -->
