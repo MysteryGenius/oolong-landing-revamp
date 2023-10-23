@@ -10,12 +10,14 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@types/lodash": "^4.14.200",
     "@types/node": "^18",
     "nuxt": "^3.5.2"
   },
   "dependencies": {
     "@heroicons/vue": "^2.0.18",
     "@nuxtjs/tailwindcss": "^6.7.0",
+    "lodash": "^4.17.21",
     "nuxt-headlessui": "^1.1.4",
     "tsparticles": "^2.10.1",
     "vue3-particles": "^2.10.1"

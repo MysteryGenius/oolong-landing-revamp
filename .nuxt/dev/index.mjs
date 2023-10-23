@@ -1,25 +1,25 @@
-globalThis._importMeta_={url:import.meta.url,env:process.env};import 'file:///Users/jodie/Desktop/oolong-landing/node_modules/node-fetch-native/dist/polyfill.mjs';
+globalThis._importMeta_={url:import.meta.url,env:process.env};import 'file://C:/Users/Jian%20Zhen/Desktop/oolong-landing-revamp/node_modules/node-fetch-native/dist/polyfill.mjs';
 import { Server } from 'node:http';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { mkdirSync } from 'node:fs';
 import { parentPort, threadId } from 'node:worker_threads';
-import { defineEventHandler, handleCacheHeaders, createEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseStatus, getRequestHeader, setResponseHeader, getRequestHeaders, createApp, createRouter as createRouter$1, toNodeListener, fetchWithEvent, lazyEventHandler, getQuery as getQuery$1, createError } from 'file:///Users/jodie/Desktop/oolong-landing/node_modules/h3/dist/index.mjs';
-import { createRenderer } from 'file:///Users/jodie/Desktop/oolong-landing/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import { stringify, uneval } from 'file:///Users/jodie/Desktop/oolong-landing/node_modules/devalue/index.js';
-import { renderToString } from 'file:///Users/jodie/Desktop/oolong-landing/node_modules/vue/server-renderer/index.mjs';
-import { createFetch as createFetch$1, Headers } from 'file:///Users/jodie/Desktop/oolong-landing/node_modules/ofetch/dist/node.mjs';
-import destr from 'file:///Users/jodie/Desktop/oolong-landing/node_modules/destr/dist/index.mjs';
-import { createCall, createFetch } from 'file:///Users/jodie/Desktop/oolong-landing/node_modules/unenv/runtime/fetch/index.mjs';
-import { createHooks } from 'file:///Users/jodie/Desktop/oolong-landing/node_modules/hookable/dist/index.mjs';
-import { snakeCase } from 'file:///Users/jodie/Desktop/oolong-landing/node_modules/scule/dist/index.mjs';
-import { klona } from 'file:///Users/jodie/Desktop/oolong-landing/node_modules/klona/dist/index.mjs';
-import defu, { defuFn } from 'file:///Users/jodie/Desktop/oolong-landing/node_modules/defu/dist/defu.mjs';
-import { hash } from 'file:///Users/jodie/Desktop/oolong-landing/node_modules/ohash/dist/index.mjs';
-import { parseURL, withoutBase, joinURL, getQuery, withQuery } from 'file:///Users/jodie/Desktop/oolong-landing/node_modules/ufo/dist/index.mjs';
-import { createStorage, prefixStorage } from 'file:///Users/jodie/Desktop/oolong-landing/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file:///Users/jodie/Desktop/oolong-landing/node_modules/unstorage/drivers/fs.mjs';
-import { toRouteMatcher, createRouter } from 'file:///Users/jodie/Desktop/oolong-landing/node_modules/radix3/dist/index.mjs';
+import { defineEventHandler, handleCacheHeaders, createEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseStatus, getRequestHeader, setResponseHeader, getRequestHeaders, createApp, createRouter as createRouter$1, toNodeListener, fetchWithEvent, lazyEventHandler, getQuery as getQuery$1, createError } from 'file://C:/Users/Jian%20Zhen/Desktop/oolong-landing-revamp/node_modules/h3/dist/index.mjs';
+import { createRenderer } from 'file://C:/Users/Jian%20Zhen/Desktop/oolong-landing-revamp/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import { stringify, uneval } from 'file://C:/Users/Jian%20Zhen/Desktop/oolong-landing-revamp/node_modules/devalue/index.js';
+import { renderToString } from 'file://C:/Users/Jian%20Zhen/Desktop/oolong-landing-revamp/node_modules/vue/server-renderer/index.mjs';
+import { createFetch as createFetch$1, Headers } from 'file://C:/Users/Jian%20Zhen/Desktop/oolong-landing-revamp/node_modules/ofetch/dist/node.mjs';
+import destr from 'file://C:/Users/Jian%20Zhen/Desktop/oolong-landing-revamp/node_modules/destr/dist/index.mjs';
+import { createCall, createFetch } from 'file://C:/Users/Jian%20Zhen/Desktop/oolong-landing-revamp/node_modules/unenv/runtime/fetch/index.mjs';
+import { createHooks } from 'file://C:/Users/Jian%20Zhen/Desktop/oolong-landing-revamp/node_modules/hookable/dist/index.mjs';
+import { snakeCase } from 'file://C:/Users/Jian%20Zhen/Desktop/oolong-landing-revamp/node_modules/scule/dist/index.mjs';
+import { klona } from 'file://C:/Users/Jian%20Zhen/Desktop/oolong-landing-revamp/node_modules/klona/dist/index.mjs';
+import defu, { defuFn } from 'file://C:/Users/Jian%20Zhen/Desktop/oolong-landing-revamp/node_modules/defu/dist/defu.mjs';
+import { hash } from 'file://C:/Users/Jian%20Zhen/Desktop/oolong-landing-revamp/node_modules/ohash/dist/index.mjs';
+import { parseURL, withoutBase, joinURL, getQuery, withQuery } from 'file://C:/Users/Jian%20Zhen/Desktop/oolong-landing-revamp/node_modules/ufo/dist/index.mjs';
+import { createStorage, prefixStorage } from 'file://C:/Users/Jian%20Zhen/Desktop/oolong-landing-revamp/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file://C:/Users/Jian%20Zhen/Desktop/oolong-landing-revamp/node_modules/unstorage/drivers/fs.mjs';
+import { toRouteMatcher, createRouter } from 'file://C:/Users/Jian%20Zhen/Desktop/oolong-landing-revamp/node_modules/radix3/dist/index.mjs';
 
 const providers = [
   ["APPVEYOR"],
@@ -191,7 +191,7 @@ new Proxy(/* @__PURE__ */ Object.create(null), {
   }
 });
 
-const serverAssets = [{"baseName":"server","dir":"/Users/jodie/Desktop/oolong-landing/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"C:/Users/Jian Zhen/Desktop/oolong-landing-revamp/server/assets"}];
 
 const assets = createStorage();
 
@@ -203,10 +203,10 @@ const storage = createStorage({});
 
 storage.mount('/assets', assets);
 
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/jodie/Desktop/oolong-landing","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/jodie/Desktop/oolong-landing/server","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/jodie/Desktop/oolong-landing/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/jodie/Desktop/oolong-landing/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"C:\\Users\\Jian Zhen\\Desktop\\oolong-landing-revamp","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"C:\\Users\\Jian Zhen\\Desktop\\oolong-landing-revamp\\server","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"C:\\Users\\Jian Zhen\\Desktop\\oolong-landing-revamp\\.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"C:\\Users\\Jian Zhen\\Desktop\\oolong-landing-revamp\\.nuxt\\cache","ignore":["**/node_modules/**","**/.git/**"]}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -613,11 +613,11 @@ const errorHandler = (async function errorhandler(error, event) {
   event.node.res.end(await res.text());
 });
 
-const _lazy_GvepZU = () => Promise.resolve().then(function () { return renderer$1; });
+const _lazy_s1kFVP = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
-  { route: '/__nuxt_error', handler: _lazy_GvepZU, lazy: true, middleware: false, method: undefined },
-  { route: '/**', handler: _lazy_GvepZU, lazy: true, middleware: false, method: undefined }
+  { route: '/__nuxt_error', handler: _lazy_s1kFVP, lazy: true, middleware: false, method: undefined },
+  { route: '/**', handler: _lazy_s1kFVP, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {
@@ -758,9 +758,9 @@ function publicAssetsURL(...path) {
 
 globalThis.__buildAssetsURL = buildAssetsURL;
 globalThis.__publicAssetsURL = publicAssetsURL;
-const getClientManifest = () => import('/Users/jodie/Desktop/oolong-landing/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
+const getClientManifest = () => import('file://C:/Users/Jian%20Zhen/Desktop/oolong-landing-revamp/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
 const getStaticRenderedHead = () => Promise.resolve().then(function () { return _virtual__headStatic$1; }).then((r) => r.default || r);
-const getServerEntry = () => import('/Users/jodie/Desktop/oolong-landing/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
+const getServerEntry = () => import('file://C:/Users/Jian%20Zhen/Desktop/oolong-landing-revamp/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
 const getSSRStyles = lazyCachedFunction(() => Promise.resolve().then(function () { return styles$1; }).then((r) => r.default || r));
 const getSSRRenderer = lazyCachedFunction(async () => {
   const manifest = await getClientManifest();

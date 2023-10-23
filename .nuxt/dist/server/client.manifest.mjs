@@ -1,1 +1,1 @@
-export { default } from "file:///Users/jodie/Desktop/oolong-landing/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
+export { default } from "file:///C:/Users/Jian%20Zhen/Desktop/oolong-landing-revamp/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"

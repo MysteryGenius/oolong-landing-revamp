@@ -6,10 +6,10 @@
     "module": true,
     "resourceType": "script"
   },
-  "/Users/jodie/Desktop/oolong-landing/node_modules/nuxt/dist/app/entry.js": {
+  "C:/Users/Jian Zhen/Desktop/oolong-landing-revamp/node_modules/nuxt/dist/app/entry.js": {
     "resourceType": "script",
     "module": true,
     "isEntry": true,
-    "file": "/Users/jodie/Desktop/oolong-landing/node_modules/nuxt/dist/app/entry.js"
+    "file": "C:/Users/Jian Zhen/Desktop/oolong-landing-revamp/node_modules/nuxt/dist/app/entry.js"
   }
 }
