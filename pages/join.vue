@@ -2,8 +2,68 @@
   <article class="mt-20">
     <h2 class="text-6xl font-bold tracking-widest text-center">Join us</h2>
     <hr class="mt-4" />
-    <!-- Volunteering -->
+    <!-- Why -->
     <section class="mt-6 grid grid-cols-1">
+      <div class="md:order-1 order-2">
+        <h3 class="text-2xl font-bold mt-6">
+          Unlocking New Avenues of Impact:
+        </h3>
+        <p class="mt-4">
+          Collaborating with Oolong means aligning your organization's values
+          with a mission-driven community. Join us to amplify your social
+          impact, foster employee engagement, and be a part of a movement that
+          empowers individuals and communities.
+        </p>
+      </div>
+      <!--  -->
+    </section>
+
+    <!-- Why -->
+    <section class="mt-6 grid grid-cols-1">
+      <div class="md:order-1 order-2">
+        <h3 class="text-2xl font-bold mt-6">Power of Collaborative Action:</h3>
+        <ol class="grid grid-cols-3 gap-2 py-4 text-center">
+          <li
+            class="p-4 rounded-md bg-stone-300 text-stone-900 flex flex-col justify-between"
+          >
+            <h4 class="font-bold text-xl">Enhanced Social Impact</h4>
+            <p>Together, we create lasting change.</p>
+          </li>
+          <li
+            class="p-4 rounded-md bg-stone-300 text-stone-900 flex flex-col justify-between"
+          >
+            <h4 class="font-bold text-xl">Employee Engagement</h4>
+            <p>Engage your workforce in meaningful initiatives.</p>
+          </li>
+          <li
+            class="p-4 rounded-md bg-stone-300 text-stone-900 flex flex-col justify-between"
+          >
+            <h4 class="font-bold text-xl">Networking Opportunities</h4>
+            <p>Connect with like-minded organizations.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="mt-6 grid grid-cols-1">
+      <div class="md:order-1 order-2">
+        <h3 class="text-2xl font-bold mt-6">Current Partners</h3>
+        <p class="mt-4">
+          We are proud to collaborate with organizations that share our vision.
+          Together, we are creating a positive ripple effect in the world.
+        </p>
+        <ol class="grid grid-cols-3 gap-2 py-4 text-center">
+          <li v-for="partner in partners" :key="partner.name">
+            <NuxtLink :to="partner.link">
+              <img :src="partner.logo" :alt="partner.name" />
+            </NuxtLink>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Volunteering -->
+    <!-- <section class="mt-2 grid grid-cols-1">
       <div class="md:order-1 order-2">
         <h3 class="text-2xl font-bold mt-6">Volunteer With Us:</h3>
         <p class="mt-4">
@@ -11,12 +71,11 @@
           community but to also find purpose, connection, and self-worth.
         </p>
       </div>
-      <!--  -->
-    </section>
+    </section> -->
 
     <!-- Join as community -->
     <section class="mt-6 grid grid-cols-1">
-      <div class="md:order-1 order-2">
+      <div>
         <h3 class="text-2xl font-bold mt-6">Become a Community Member:</h3>
         <p class="mt-4">
           Engage, share, learn, and grow. Become a valued member of our
@@ -26,7 +85,7 @@
       <NuxtLink to="https://t.me/+3NWBeOG-BIo2MGE1">
         <button
           type="button"
-          class="rounded bg-indigo-600 px-2 py-1 text-xs font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+          class="mt-4 rounded bg-indigo-600 px-4 py-2 text-xs font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
         >
           Join Our Telegram Community
         </button>
@@ -35,7 +94,7 @@
 
     <!-- Invest in us -->
     <section class="mt-6 grid grid-cols-1">
-      <div class="md:order-1 order-2">
+      <div>
         <h3 class="text-2xl font-bold mt-6">Invest in Our Vision:</h3>
         <p class="mt-4">
           Invest in a community that's reshaping the narrative of healing and
@@ -46,9 +105,9 @@
       <NuxtLink to="https://t.me/+3NWBeOG-BIo2MGE1">
         <button
           type="button"
-          class="rounded bg-indigo-600 px-2 py-1 text-xs font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+          class="mt-4 rounded bg-indigo-600 px-4 py-2 text-xs font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
         >
-          Join Our Telegram Community
+          Email us!
         </button>
       </NuxtLink>
     </section>
@@ -121,3 +180,18 @@
     </section>
   </article>
 </template>
+<script lang="ts" setup>
+interface Partner {
+  name: string;
+  logo: string;
+  link: string;
+}
+
+const partners = ref<Partner[]>([
+  {
+    name: "Creaturae",
+    link: "https://creaturae.org/",
+    logo: "images/partners/creaturae.png",
+  },
+]);
+</script>

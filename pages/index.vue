@@ -106,6 +106,29 @@
         </NuxtLink>
       </div>
     </div>
+
+    <section class="bg-stone-100 rounded-xl max-w-7xl px-6 py-6 sm:py-8 mt-4">
+      <h3 class="text-2xl font-bold text-stone-700 text-center">
+        Supported By:
+      </h3>
+      <div class="flex flex-row justify-around">
+        <img
+          class="w-2/6 sm:w-24 lg:w-min mx-auto"
+          src="/images/partners/spark-the-next.svg"
+          alt="Spark The Next SG Youth Action Plan"
+        />
+        <img
+          class="w-2/6 sm:w-24 lg:w-min mx-auto"
+          src="/images/partners/youth-action-challenge.svg"
+          alt="Youth Action Challenge"
+        />
+        <img
+          class="w-2/6 sm:w-24 lg:w-min mx-auto"
+          src="/images/partners/nyc.svg"
+          alt="National Youth Council"
+        />
+      </div>
+    </section>
   </main>
 </template>
 <style scoped>
